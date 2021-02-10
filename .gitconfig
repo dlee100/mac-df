@@ -1,0 +1,8 @@
+[user]
+	name = Daniel Lee
+	email = 54050413+dlee100@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
