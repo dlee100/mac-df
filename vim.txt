@@ -1,0 +1,33 @@
+# Vim bindings to remember
+
+Vim modes
+i = insert
+: = command
+v = visual
+
+To navigate: arrow keys or HJKL
+
+i = insert before char
+a = insert after char
+I = insert beginning of line
+A = insert end of line
+
+xr - making changes while in command mode
+
+r = replace key
+
+x = delete char ->
+shift+x = delete <-
+
+dd = delete line
+
+u = undo
+
+:set number = set numbers on editor
+:(num) = jump to line number
+
++p = paste from system clipboard
+
+:w = save
+
+:!(shell) (file) = run program 
